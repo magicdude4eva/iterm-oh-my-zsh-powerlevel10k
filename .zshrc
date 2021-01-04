@@ -62,6 +62,7 @@ _evalcache jenv init -
 ### Aliases
 alias library="chflags nohidden ~/Library"
 alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
+alias zup='~/.zsh/update.sh'
 alias dsstore_rm="find . -name ".DS_Store" -depth -exec rm {} \;"
 alias tailf="find . -type f \( -name \"*.log\" \) -exec tail -f \"$file\" {} +"
 
