@@ -86,3 +86,6 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Fuzzy Find Everything - CTRL+R
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
