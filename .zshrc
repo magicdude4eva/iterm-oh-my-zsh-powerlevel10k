@@ -89,3 +89,6 @@ zstyle :bracketed-paste-magic paste-finish pastefinish
 
 # Fuzzy Find Everything - CTRL+R
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Forgit
+[ -f ~/.oh-my-zsh/custom/plugins/forgit/forgit.plugin.zsh ] && source ~/.oh-my-zsh/custom/plugins/forgit/forgit.plugin.zsh
