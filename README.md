@@ -91,3 +91,17 @@ Update your .zshrc:
 ```
  [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 ```
+
+### Forgit
+Utility tool for using git interactively. This tool is designed to help you use git more efficiently. It's lightweight and easy to use.
+![forgit](https://user-images.githubusercontent.com/1632781/103530439-ba6a1d00-4e87-11eb-97e3-a37d6bd29344.gif)
+
+Install via Cloning into plugins:
+```
+git clone https://github.com/wfxr/forgit ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/forgit
+```
+
+Source via .zshrc:
+```
+[ -f ~/.oh-my-zsh/custom/plugins/forgit/forgit.plugin.zsh ] && source ~/.oh-my-zsh/custom/plugins/forgit/forgit.plugin.zsh
+```
