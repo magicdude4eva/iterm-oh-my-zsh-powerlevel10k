@@ -73,3 +73,21 @@ Open a new terminal tab and if the powerlevel10k setup does not start, run it ma
 ```
 p10k configure
 ```
+
+### Fuzzy find everything
+fzf is a general-purpose command-line fuzzy finder. It's an interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc. Activate it with CTRL+R:
+![fzf](https://user-images.githubusercontent.com/1632781/103527566-da4b1200-4e82-11eb-8845-d370c2a86f33.gif)
+
+```
+brew install fzf
+```
+
+Install the keybindings and completion
+```
+/usr/local/opt/fzf/install
+```
+
+Update your .zshrc:
+```
+ [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+```
