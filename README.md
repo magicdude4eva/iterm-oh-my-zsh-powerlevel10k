@@ -138,4 +138,3 @@ Adjust your git global via `git config --global -e`:
     file-decoration-style = none
 ...
 ```
-
