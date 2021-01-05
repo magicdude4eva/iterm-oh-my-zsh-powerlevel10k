@@ -45,7 +45,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 ```
 
 ### Install Oh My Zsh plugins
-zsh-autosuggestions is a great plugin that will suggest auto completions based on what you type.
+[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) is a great plugin that will suggest auto completions based on what you type.
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
@@ -55,7 +55,7 @@ zsh-completion aims at gathering/developing new completion scripts that are not 
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
 ```
 
-zsh-syntax-highlighting provides syntax highlighting for the shell zsh. It enables highlighting of commands whilst they are typed at a zsh prompt into an interactive terminal. This helps in reviewing commands before running them, particularly in catching syntax errors.
+[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-completions) provides syntax highlighting for the shell zsh. It enables highlighting of commands whilst they are typed at a zsh prompt into an interactive terminal. This helps in reviewing commands before running them, particularly in catching syntax errors.
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
@@ -65,7 +65,7 @@ Next, edit your ~/.zshrc file to activate it. Add the plugins to the list of plu
 plugins=(evalcache zsh-nvm osx git npm zsh-autosuggestions zsh-completions zsh-syntax-highlighting sublime)
 ```
 ### Install PowerLevel10K
-Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
+[Powerlevel10k](https://github.com/romkatv/powerlevel10k) is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
@@ -81,7 +81,7 @@ p10k configure
 ```
 
 ### Fuzzy find everything
-fzf is a general-purpose command-line fuzzy finder. It's an interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc. Activate it with CTRL+R:
+[fzf](https://github.com/junegunn/fzf) is a general-purpose command-line fuzzy finder. It's an interactive Unix filter for command-line that can be used with any list; files, command history, processes, hostnames, bookmarks, git commits, etc. Activate it with CTRL+R:
 ![fzf](https://user-images.githubusercontent.com/1632781/103527566-da4b1200-4e82-11eb-8845-d370c2a86f33.gif)
 
 ```
@@ -95,11 +95,11 @@ Install the keybindings and completion
 
 Update your .zshrc:
 ```
- [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 ```
 
 ### Forgit
-Utility tool for using git interactively. This tool is designed to help you use git more efficiently. It's lightweight and easy to use.
+[forgit](https://github.com/wfxr/forgit) is an utility tool for using git interactively. This tool is designed to help you use git more efficiently. It's lightweight and easy to use.
 ![forgit](https://user-images.githubusercontent.com/1632781/103530439-ba6a1d00-4e87-11eb-97e3-a37d6bd29344.gif)
 
 Install via Cloning into plugins:
@@ -113,7 +113,7 @@ Source via .zshrc:
 ```
 
 ### Delta - better git diffs
-Delta aims to make this both efficient and enjoyable: it allows you to make extensive changes to the layout and styling of diffs, as well as allowing you to stay arbitrarily close to the default git/diff output.
+[git-delta](https://github.com/dandavison/delta) aims to make this both efficient and enjoyable: it allows you to make extensive changes to the layout and styling of diffs, as well as allowing you to stay arbitrarily close to the default git/diff output.
 
 ![delta](https://user-images.githubusercontent.com/1632781/103666183-946e7680-4f74-11eb-9021-a397e0c2d80d.gif)
 
@@ -126,17 +126,17 @@ Adjust your git global via `git config --global -e`:
 ```
 ...
 [core]
-   	pager = delta
+    pager = delta
 
 [interactive]
     diffFilter = delta --color-only	
 [delta]
     features = side-by-side line-numbers decorations
     syntax-theme = Monokai Extended	
-   	line-numbers = true
+    line-numbers = true
     plus-color = "#012800"
     minus-color = "#340001"
-	   side-by-side = false
+    side-by-side = false
     whitespace-error-style = 22 reverse
 [delta "decorations"]
     commit-decoration-style = bold yellow box ul
