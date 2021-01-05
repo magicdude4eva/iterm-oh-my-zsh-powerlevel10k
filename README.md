@@ -158,4 +158,4 @@ Adjust your git global via `git config --global -e`:
 
 Sign up to [Cointracking](https://cointracking.info?ref=M263159) which uses APIs to connect to all exchanges and helps you with tax. Use [Binance Exchange](https://www.binance.com/?ref=13896895) to trade #altcoins. Join [TradingView](http://tradingview.go2cloud.org/aff_c?offer_id=2&aff_id=7432) to get trend-reports. Sign up with [Coinbase](https://www.coinbase.com/join/nasche_x) and **instantly get $10 in BTC**.
 
-If you have no crypto, follow me at least on [Twitter](https://twitter.com/gerdnaschenweng) or send me old-school [PayPal](https://paypal.me/GerdNaschenweng)
+If you have no crypto, follow me at least on [Twitter](https://twitter.com/gerdnaschenweng) or send me old-school [PayPal](https://paypal.me/GerdNaschenweng).
