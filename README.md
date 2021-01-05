@@ -35,8 +35,8 @@ brew cask install iterm2
 ```
 
 ### Customising iTerm
-* Download the fonts and install in iTerm.
-* Download the iTerm theme `iTerm-material-bright.itermcolors` and select it in iTerm
+* Download the [fonts](https://github.com/magicdude4eva/dotfiles/tree/main/Fonts) and install in iTerm.
+* Download the iTerm theme [iTerm-material-bright.itermcolors](https://github.com/magicdude4eva/dotfiles/blob/main/iTerm-material-bright.itermcolors) and select it in iTerm
 
 ## Installing Oh My Zsh
 Install it by opening iTerm and write the command:
