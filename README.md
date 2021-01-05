@@ -109,6 +109,8 @@ Source via .zshrc:
 ### Delta - better git diffs
 Delta aims to make this both efficient and enjoyable: it allows you to make extensive changes to the layout and styling of diffs, as well as allowing you to stay arbitrarily close to the default git/diff output.
 
+![delta](https://user-images.githubusercontent.com/1632781/103666183-946e7680-4f74-11eb-9021-a397e0c2d80d.gif)
+
 Install via brew:
 ```
 brew install git-delta
