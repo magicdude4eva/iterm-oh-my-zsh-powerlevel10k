@@ -105,3 +105,35 @@ Source via .zshrc:
 ```
 [ -f ~/.oh-my-zsh/custom/plugins/forgit/forgit.plugin.zsh ] && source ~/.oh-my-zsh/custom/plugins/forgit/forgit.plugin.zsh
 ```
+
+### Delta - better git diffs
+Delta aims to make this both efficient and enjoyable: it allows you to make extensive changes to the layout and styling of diffs, as well as allowing you to stay arbitrarily close to the default git/diff output.
+
+Install via brew:
+```
+brew install git-delta
+```
+
+Adjust your git global via `git config --global -e`:
+```
+...
+[core]
+   	pager = delta
+
+[interactive]
+    diffFilter = delta --color-only	
+[delta]
+    features = side-by-side line-numbers decorations
+    syntax-theme = Monokai Extended	
+   	line-numbers = true
+    plus-color = "#012800"
+    minus-color = "#340001"
+	   side-by-side = false
+    whitespace-error-style = 22 reverse
+[delta "decorations"]
+    commit-decoration-style = bold yellow box ul
+    file-style = bold yellow ul
+    file-decoration-style = none
+...
+```
+
