@@ -117,9 +117,9 @@ Source via .zshrc:
 
 ![delta](https://user-images.githubusercontent.com/1632781/103666183-946e7680-4f74-11eb-9021-a397e0c2d80d.gif)
 
-Install via brew:
+Install via brew (we also install `less` as the Mac default less does not support proper scrolling):
 ```
-brew install git-delta
+brew install git-delta less
 ```
 
 Adjust your git global via `git config --global -e`:
