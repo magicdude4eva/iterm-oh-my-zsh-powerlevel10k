@@ -340,18 +340,5 @@
 		<key>Red Component</key>
 		<real>0.027450980618596077</real>
 	</dict>
-	<key>Tab Color</key>
-	<dict>
-		<key>Alpha Component</key>
-		<real>1</real>
-		<key>Blue Component</key>
-		<real>0.0</real>
-		<key>Color Space</key>
-		<string>sRGB</string>
-		<key>Green Component</key>
-		<real>0.1491314172744751</real>
-		<key>Red Component</key>
-		<real>1</real>
-	</dict>
 </dict>
 </plist>

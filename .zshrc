@@ -14,8 +14,6 @@ export TERM="xterm-256color"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
-
 # Funky stuff: hellokitty, small
 fortune | cowsay -f small | lolcat
 
@@ -39,10 +37,6 @@ DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
-# You can set one of the optional three formats:
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# or set a custom format using the strftime function format specifications,
-# see 'man strftime' for details.
 HIST_STAMPS="yyyy-mm-dd"
 HISTCONTROL=ignoredups
 HISTIGNORE="pwd:ls:ls -ltr:date"
@@ -51,7 +45,7 @@ HISTIGNORE="pwd:ls:ls -ltr:date"
 export NVM_LAZY_LOAD=true
 export NVM_COMPLETION=true
 
-plugins=(evalcache zsh-nvm osx git npm zsh-autosuggestions zsh-completions zsh-syntax-highlighting sublime)
+plugins=(evalcache zsh-nvm osx forgit git npm zsh-autosuggestions zsh-completions zsh-syntax-highlighting sublime)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,6 +78,8 @@ pastefinish() {
 zstyle :bracketed-paste-magic paste-init pasteinit
 zstyle :bracketed-paste-magic paste-finish pastefinish
 ### Fix slowness of pastes
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
