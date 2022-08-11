@@ -45,20 +45,23 @@ HISTIGNORE="pwd:ls:ls -ltr:date"
 export NVM_LAZY_LOAD=true
 export NVM_COMPLETION=true
 
-plugins=(evalcache zsh-nvm osx forgit git npm zsh-autosuggestions zsh-completions zsh-syntax-highlighting sublime)
+plugins=(evalcache zsh-nvm macos forgit git npm zsh-autosuggestions zsh-completions zsh-syntax-highlighting sublime)
 
 source $ZSH/oh-my-zsh.sh
 
-#_evalcache rbenv init -
-#_evalcache direnv hook zsh
-_evalcache jenv init -
+# _evalcache jenv init -
 
 ### Aliases
 alias library="chflags nohidden ~/Library"
 alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
 alias zup='~/.zsh/update.sh'
+alias weather='curl wttr.in/Klagenfurt\?2F'
 alias dsstore_rm="find . -name ".DS_Store" -depth -exec rm {} \;"
 alias tailf="find . -type f \( -name \"*.log\" \) -exec tail -f \"$file\" {} +"
+
+## add your network SSH aliases 
+alias pi="ssh root@192.168.1.1"
+
 
 export LANG=en_US.UTF-8
 export LC_CTYPE=en_US.UTF-8
@@ -89,3 +92,8 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 
 # Forgit
 [ -f ~/.oh-my-zsh/custom/plugins/forgit/forgit.plugin.zsh ] && source ~/.oh-my-zsh/custom/plugins/forgit/forgit.plugin.zsh
+
+# Ruby - run 'chruby' to see actual version
+source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh
+source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
+chruby ruby-3.1.2
