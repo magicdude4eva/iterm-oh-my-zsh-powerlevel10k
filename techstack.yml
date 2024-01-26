@@ -1,7 +1,8 @@
 repo_name: magicdude4eva/iterm-oh-my-zsh-powerlevel10k
-report_id: 0e28c015fc4a075e81c10cb2d8f4eaba
+report_id: 6c10f066a901715db4a671eff6b95d28
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T12:24:09+00:00'
+timestamp: '2024-01-11T12:35:38+00:00'
 requested_by: magicdude4eva
 provider: github
 branch: main
@@ -15,6 +16,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/magicdude4eva/iterm-oh-my-zsh-powerlevel10k
   detection_source: Repo Metadata
 - name: Shell
   description: A shell is a text-based terminal, used for manipulating programs and
@@ -25,4 +27,5 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/magicdude4eva/iterm-oh-my-zsh-powerlevel10k
   detection_source: Repo Metadata
