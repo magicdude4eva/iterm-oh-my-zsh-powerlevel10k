@@ -24,7 +24,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [magicdude4eva/iterm-oh-my-zsh-powerlevel10k](https://github.com/magicdude4eva/iterm-oh-my-zsh-powerlevel10k)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|2<br/>Tools used|12/14/23 <br/>Report generated|
+|2<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
