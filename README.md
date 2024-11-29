@@ -148,16 +148,15 @@ Adjust your git global via `git config --global -e`:
 
 
 ## Donations are always welcome
-:beer: **Please support me**: If the above helped you in any way, then [follow me on Twitter](https://twitter.com/gerdnaschenweng) or send me some coins: 
+🍺 **Please support me**: If the above helped you in any way, then [follow me on Twitter](https://twitter.com/gerdnaschenweng) or send me some coins: 
 ```
-(CRO)    cro1w2kvwrzp23aq54n3amwav4yy4a9ahq2kz2wtmj (Memo: 644996249) or 0xb83c3Fe378F5224fAdD7a0f8a7dD33a6C96C422C (Cronos)
-(USDC)   0xb83c3Fe378F5224fAdD7a0f8a7dD33a6C96C422C
-(BTC)    3628nqihXvw2RXsKtTR36dN6WvYzaHyr52
-(ETH)    0xb83c3Fe378F5224fAdD7a0f8a7dD33a6C96C422C
-(BAT)    0xb83c3Fe378F5224fAdD7a0f8a7dD33a6C96C422C
-(LTC)    MQxRAfhVU84KDVUqnZ5eV9MGyyaBEcQeDf
-(Ripple) rKV8HEL3vLc6q9waTiJcewdRdSFyx67QFb (Tag: 1172047832)
-(XLM)    GB67TJFJO3GUA432EJ4JTODHFYSBTM44P4XQCDOFTXJNNPV2UKUJYVBF (Memo ID: 1406379394)
+(CRO)    0xBAdB43af444055c4031B79a76F74895469BA0CD7 (Cronos)
+(USDC)   0xBAdB43af444055c4031B79a76F74895469BA0CD7
+(BTC)    3HHfNs25Gzfphh3s81rvqRrKysZqogW8B6
+(ETH)    0xBAdB43af444055c4031B79a76F74895469BA0CD7
+(Ripple) rKNwXQh9GMjaU8uTqKLECsqyib47g5dMvo (Tag: 2464166834)
+(BNB)    0xfc316ba7d8dc325250f1adfafafc320ad75d87c0 (BEP20)
+Crypto.com PayString: magicdude$paystring.crypto.com
 ```
 
 Go to [Curve.com to add your Crypto.com card to ApplePay](https://www.curve.com/join#DWPXKG6E) and signup to [Crypto.com for a staking and free Crypto debit card](https://crypto.com/app/ref6ayzqvp).
