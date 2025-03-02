@@ -148,16 +148,16 @@ Adjust your git global via `git config --global -e`:
 
 
 ## Donations are always welcome
-🍺 **Please support me**: If the above helped you in any way, then [follow me on Twitter](https://twitter.com/gerdnaschenweng) or send me some coins: 
+🍺 **Please support me**: If the above helped you in any way, then send me some coins: 
 ```
 (CRO)    0xBAdB43af444055c4031B79a76F74895469BA0CD7 (Cronos)
 (USDC)   0xBAdB43af444055c4031B79a76F74895469BA0CD7
-(BTC)    3HHfNs25Gzfphh3s81rvqRrKysZqogW8B6
-(ETH)    0xBAdB43af444055c4031B79a76F74895469BA0CD7
-(Ripple) rKNwXQh9GMjaU8uTqKLECsqyib47g5dMvo (Tag: 2464166834)
-(BNB)    0xfc316ba7d8dc325250f1adfafafc320ad75d87c0 (BEP20)
-Crypto.com PayString: magicdude$paystring.crypto.com
+(ETH)    0xfc316ba7d8dc325250f1adfafafc320ad75d87c0
+(BTC)    1Mhq9SY6DzPhs7PNDx7idXFDWsGtyn7GWM
+(BNB)    0xfc316ba7d8dc325250f1adfafafc320ad75d87c0
+Crypto.com PayString: magicdude$paystring.crypto.com	
 ```
+
 
 Go to [Curve.com to add your Crypto.com card to ApplePay](https://www.curve.com/join#DWPXKG6E) and signup to [Crypto.com for a staking and free Crypto debit card](https://crypto.com/app/ref6ayzqvp).
 
