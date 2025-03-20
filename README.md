@@ -148,21 +148,20 @@ Adjust your git global via `git config --global -e`:
 
 
 ## Donations are always welcome
-🍺 **Please support me**: If the above helped you in any way, then send me some coins: 
+[paypal]: https://paypal.me/GerdNaschenweng
+:beer: **Please support me**: Although all my software is free, it is always appreciated if you can support my efforts on Github with a [contribution via Paypal][paypal] - this allows me to write cool projects like this in my personal time and hopefully help you or your business. 
 ```
 (CRO)    0xBAdB43af444055c4031B79a76F74895469BA0CD7 (Cronos)
 (USDC)   0xBAdB43af444055c4031B79a76F74895469BA0CD7
 (ETH)    0xfc316ba7d8dc325250f1adfafafc320ad75d87c0
 (BTC)    1Mhq9SY6DzPhs7PNDx7idXFDWsGtyn7GWM
 (BNB)    0xfc316ba7d8dc325250f1adfafafc320ad75d87c0
-Crypto.com PayString: magicdude$paystring.crypto.com	
+Crypto.com PayString: magicdude$paystring.crypto.com    
 ```
-
 
 Go to [Curve.com to add your Crypto.com card to ApplePay](https://www.curve.com/join#DWPXKG6E) and signup to [Crypto.com for a staking and free Crypto debit card](https://crypto.com/app/ref6ayzqvp).
 
-Use [Binance Exchange](https://www.binance.com/?ref=13896895) to trade #altcoins. I also accept old-school **[PayPal](https://paypal.me/GerdNaschenweng)**.
+Use [Binance Exchange](https://accounts.binance.com/register?ref=13896895) to trade #altcoins. I also accept old-school **[PayPal](https://paypal.me/GerdNaschenweng)**.
 
-If you have no crypto, follow me at least on [Twitter](https://twitter.com/gerdnaschenweng).
 
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=magicdude4eva.magicdude4eva)
