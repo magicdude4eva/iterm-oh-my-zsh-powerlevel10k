@@ -1,0 +1,13 @@
+name: Trigger Central Donation Block Updater
+
+on:
+  push:
+    paths:
+      - "**/README.md"
+
+permissions:
+  contents: write
+
+jobs:
+  call-update:
+    uses: magicdude4eva/common-repo-workflow/.github/workflows/update-donations.yml@main
