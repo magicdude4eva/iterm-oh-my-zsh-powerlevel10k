@@ -156,12 +156,14 @@ All my software is free and built in my personal time. If it helps you or your b
 You can also send crypto to one of the addresses below:
 
 ```
-(CRO)   0xb83c3Fe378F5224fAdD7a0f8a7dD33a6C96C422C (Cronos)  
-(USDC)  0xb83c3Fe378F5224fAdD7a0f8a7dD33a6C96C422C (ERC20)  
-(ETH)   0xfc316ba7d8dc325250f1adfafafc320ad75d87c0  
-(BNB)   0xfc316ba7d8dc325250f1adfafafc320ad75d87c0
-(BTC)   bc1q24fuw84l6whm20umlr56nvqjn908sec8pavk3z  
-Crypto.com PayString: magicdude$paystring.crypto.com
+(BTC)   bc1qdgdkk7l98pje8ny9u4xavsvrea8dw6yu8jpnyf
+(ETH)   0x5986f713A538D6bCaC0865564dCD45E2600A3469  
+(POL)   0x5986f713A538D6bCaC0865564dCD45E2600A3469
+(CRO)   0xb83c3Fe378F5224fAdD7a0f8a7dD33a6C96C422C (Cronos or Crypto.com Paystring magicdude$paystring.crypto.com)
+(BNB)   0x5986f713A538D6bCaC0865564dCD45E2600A3469
+(LTC)   ltc1qexst2exxksfyg7erfzlfrm23twkjgf7e5fn64t
+(DOGE)  DMQsxc9XGF6526drBJDZeX7AjFDJsEz4mN
+(SOL)   t4bYQCUuoCUrp7kJ4Mz314npcTuKoUSXj28UgdMrfTb
 ```
 
 🧾 **Recommended Platforms**  
