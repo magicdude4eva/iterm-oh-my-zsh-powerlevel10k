@@ -145,8 +145,6 @@ Adjust your git global via `git config --global -e`:
 ...
 ```
 
-
-
 ## Donations are always welcome
 
 [paypal]: https://paypal.me/GerdNaschenweng
