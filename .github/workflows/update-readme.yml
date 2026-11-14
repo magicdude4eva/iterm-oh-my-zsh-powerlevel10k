@@ -2,8 +2,12 @@ name: Trigger Central Donation Block Updater
 
 on:
   push:
+    branches: [main, master]
     paths:
       - "**/README.md"
+  schedule:
+    - cron: "0 5 * * 1" # Weekly, so changes to donations.md propagate
+  workflow_dispatch:
 
 permissions:
   contents: write
